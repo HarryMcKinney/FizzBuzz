@@ -1,0 +1,6 @@
+<?php
+
+foreach (range(1,100) as $i)
+	echo $i % 3 == 0 ? ( $i % 5 == 0 ? "FizzBuzz\r\n" : "Fizz\r\n" ) : ( $i % 5 == 0 ? "Buzz\r\n" : $i."r\n" );
+	
+?>
