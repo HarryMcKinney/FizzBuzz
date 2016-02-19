@@ -1,3 +1,4 @@
+<?php
 //get publish time less actual time
         
         function get_time_ago($date, $prefix, $suffix, $secs, $mins, $hours, $days, $weeks, $years, $error) {
@@ -30,4 +31,4 @@
           else echo $error;
         }
         $hours_since_pub = get_time_ago($date, $prefix, $suffix, $secs, $mins, $hours, $days, $weeks, $years);
-        
+        ?>
